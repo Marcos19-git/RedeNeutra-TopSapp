@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes motion {
+  from {
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.control1 {
+  animation: motion 0.3 ease-in-out forwards;
+}
